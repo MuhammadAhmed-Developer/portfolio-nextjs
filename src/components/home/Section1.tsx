@@ -17,19 +17,23 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
     >
       {/* <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div> */}
 
-      <ConstraintedBox classNames="px-4 py-8 pt-16 z-20 items-center justify-center">
+      <ConstraintedBox classNames="px-4 py-8 !mt-[-100px] md:pt-16 z-20 items-center justify-center">
         <Column classNames="w-full items-center justify-center">
           <div className="inline-flex items-center">
-            <p className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--textColor)] text-[var(--textColor)] font-bold text-center">
+            <p className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-5xl/normal dark:text-[var(--textColor)] text-[var(--textColor)] font-bold text-center">
               Hi there, I am
             </p>
             <FlipWords
-              words={["Nikhil Rajput", "@nixrajput"]}
-              className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
+              words={["Muhammad Ahmed", "a Software Developer"]}
+              className="text-2xl/normal sm:text-2xl/normal md:text-5xl/normal lg:text-5xl/normal xl:text-5xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
             />
           </div>
           <p className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
-            Software Engineer & Full Stack Developer
+            A dedicated Software Developer with 2 years of experience in
+            developing user-centric, scalable web and mobile applications. My
+            expertise spans a wide range of technologies, and I am constantly
+            expanding my knowledge base to stay at the forefront of industry
+            advancements.
           </p>
 
           <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row">

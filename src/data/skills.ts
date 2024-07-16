@@ -15,9 +15,9 @@ const skills: ISkillListItem[] = [
         icon: "/skills/typescript.svg",
       },
       {
-        title: "Dart",
+        title: "Python",
         level: SkillLevel.Expert,
-        icon: "/skills/dart.svg",
+        icon: "/skills/python.webp",
       },
     ],
   },
@@ -85,14 +85,14 @@ const skills: ISkillListItem[] = [
     title: "Mobile App Development",
     items: [
       {
-        title: "Flutter",
+        title: "React Native",
         level: SkillLevel.Expert,
-        icon: "/skills/flutter.svg",
+        icon: "/skills/react.svg",
       },
       {
-        title: "GetX",
+        title: "Redux",
         level: SkillLevel.Expert,
-        icon: "/skills/getx.png",
+        icon: "/skills/redux.svg",
       },
     ],
   },

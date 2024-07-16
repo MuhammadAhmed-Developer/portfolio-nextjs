@@ -34,14 +34,13 @@ const ExperienceItem = ({ data }: { data: IExperienceItem }) => {
             {data.isCurrentJob ? "Present" : data.endDate}
           </p>
         </div>
-
-        <p className="text-base/6 font-normal">
+        <p className="text-base/6 font-normal text-center">
           <Balancer>{data.shortDescription}</Balancer>
         </p>
       </Column>
 
       <div className="absolute left-0 right-0 top-[-200%] bottom-0 w-full h-auto min-h-full scroll-smooth overflow-hidden overflow-y-auto p-4 bg-zinc-800 hidden invisible opacity-0 transition duration-500 ease-in-out slide_in group-hover:flex group-hover:top-0 group-hover:visible group-hover:opacity-100 group-hover:z-10">
-        <p className="text-base/6 font-normal m-auto text-center">
+        <p className="text-base/6 font-normal m-auto text-start">
           <Balancer preferNative={false}> {data.description}</Balancer>
         </p>
       </div>

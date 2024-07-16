@@ -2,40 +2,40 @@ import { IExperienceItem } from "@/types";
 
 const experiences: IExperienceItem[] = [
   {
-    designation: "Full Stack Developer",
-    company: "Merito",
-    startDate: "Feb 2023",
+    designation: "Software Developer",
+    company: "@FISTA Solutions",
+    startDate: "March 2024",
     endDate: "",
     isCurrentJob: true,
-    location: "Pune, India",
+    location: "Punjab, Faisalabad",
     shortDescription:
-      "I have a proven track record of success, having developed more than 5 web applications  that seamlessly integrate backend APIs.",
+      "Accomplished Software Developer recognized for delivering innovative solutions and driving project success through strategic implementation",
     description:
-      "As a Full Stack Developer, I have a proven track record of success, having developed more than 5 web applications that seamlessly integrate backend APIs using modern tech stacks and adhering to the highest standards of clean code practices. My commitment to efficiency is reflected in my work, where I have streamlined workflows across various projects, eliminating redundant data requirements and significantly improving overall efficiency. One of my standout achievements includes achieving an impressive 80% faster website loading time. I accomplished this by optimizing images, minimizing main-thread work, and implementing robust SEO strategies to enhance user experience and website performance. In addition to my development skills, I've also demonstrated my expertise in both backend and frontend development by resolving over 100 bugs. My thorough and comprehensive code reviews showcase my dedication to delivering high-quality solutions that not only meet but exceed expectations. As a full-stack developer, I am passionate about driving innovation and excellence in every project I undertake.",
+      "As a Software Developer, I have designed, coded, and debugged software applications. My responsibilities included implementing features based on client requirements, participating in the entire software development lifecycle, and collaborating with cross-functional teams to ensure timely project delivery. I conducted tests to maintain quality standards, reviewed and optimized code, and effectively communicated with team members and stakeholders. Additionally, I created and maintained technical documentation and continuously improved my skills to stay current with emerging technologies.",
   },
   {
-    designation: "Full Stack Development Intern",
-    company: "TECHOX LLP",
-    startDate: "May 2021",
-    endDate: "July 2022",
+    designation: "Junior Software Developer",
+    company: "@UNIAL Solutions",
+    startDate: "Jan 2024",
+    endDate: "March 2024",
     isCurrentJob: false,
-    location: "Remote",
+    location: "On-site",
     shortDescription:
-      "I had the invaluable opportunity to make a significant impact by revamping and enhancing more than three mobile apps using Flutter.",
+      "Junior Software Developer proficient in Reactjs, Nextjs, React Native, SQL with strong foundations in software development principles and a keen enthusiasm for learning.",
     description:
-      "As a Full Stack Development Intern, I had the invaluable opportunity to make a significant impact by revamping and enhancing more than three mobile apps using Flutter, showcasing my expertise in the field of mobile development. I played a pivotal role in the development process by deploying RESTful APIs, enabling seamless integration between mobile applications and servers, thereby enhancing the overall user experience and functionality of these apps. Furthermore, I leveraged my skills to integrate Google AdMob into these applications, strategically monetizing them and effectively boosting revenue generation. My contributions as an intern reflect my dedication to staying current with modern tech stacks and best practices, ultimately delivering meaningful results to the projects I worked on.",
+      "Working as a Junior Software Developer with skills in React.js, Next.js, React Native, SQL (PostgreSQL), MongoDB, and Firebase. You will collaborate closely with senior developers to design, code, test, and deploy software solutions, learning best practices in an agile environment. This role offers an opportunity to gain hands-on experience, tackle diverse projects, and grow professionally within a supportive team.",
   },
   {
-    designation: "Web Development Intern",
-    company: "Career Corner Education Pvt Ltd",
+    designation: "Web & Mobile App Developer Intern",
+    company: "@Techloset Solutions",
     startDate: "July 2021",
     endDate: "Nov 2021",
     isCurrentJob: false,
-    location: "Remote",
+    location: "On-Site",
     shortDescription:
-      "I had the privilege of spearheading the development of the company's website and made needful changes into look and feel.",
+      "Interned in web and mobile app development, proficient in React.js, React Native, and backend technologies like Node.js, PostgreSQL, and MongoDB",
     description:
-      "During my tenure as a Web Development Intern, I had the privilege of spearheading the development of our company's website and various portals. My approach prioritized clean and reusable code, leveraging modern technology stacks to craft robust and user-friendly platforms. One of my key strengths during this internship was my ability to prioritize and efficiently problem-solve multiple tasks concurrently, often with minimal supervision. This adaptability and self-motivation allowed me to excel in a fast-paced development environment. Effective communication played a crucial role in my success as an intern. I actively engaged with senior team members and collaborated closely with colleagues to ensure precise task completion. This collaborative spirit ensured that our projects met and often exceeded the company's expectations. As a Web Development Intern, I embraced challenges, showcased my coding skills, and actively contributed to the company's digital presence and success. My experience reflects my commitment to delivering high-quality web solutions and my dedication to personal and professional growth in the field of web development.",
+      "I interned as a Web and Mobile App Developer, gaining hands-on experience in building responsive web and mobile applications using React.js and React Native. I worked on feature implementation, testing, and integration with backend technologies like Node.js, PostgreSQL, and MongoDB. This internship enhanced my technical skills and familiarity with agile development practices, preparing me to contribute effectively as a developer.",
   },
 ];
 

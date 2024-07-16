@@ -76,7 +76,7 @@ const IconSkeleton = ({ item }: Readonly<{ item: IServiceItem }>) => {
 
   return (
     <div className="overflow-hidden h-full relative flex items-center justify-center">
-      <div className="flex flex-row flex-shrink-0 justify-center items-center gap-2">
+      <div className="flex flex-row flex-shrink-0 justify-center items-center gap-2 ">
         <IconContainer className="h-8 w-8 circle-1">
           <Image
             src={item.icons[0]}

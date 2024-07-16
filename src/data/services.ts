@@ -6,8 +6,8 @@ const services: IServiceItem[] = [
     title: "Mobile App Development",
     icons: [
       "/skills/socket-io.png",
-      "/skills/dart.svg",
-      "/skills/flutter.svg",
+      "/skills/firebase.svg",
+      "/skills/react.svg",
       "/skills/getx.png",
       "/skills/firebase.svg",
     ],
